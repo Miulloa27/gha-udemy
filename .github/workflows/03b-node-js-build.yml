@@ -1,4 +1,4 @@
-name: 03 - Build node application
+name: 03b - Build node application
 on:
   push:
     branches: [ "main" ]
