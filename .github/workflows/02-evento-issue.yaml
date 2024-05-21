@@ -1,0 +1,15 @@
+# This is a basic workflow that is manually triggered
+
+name: 02 - Evento issue
+on:
+  push:
+  issues:
+    types:
+    - opened
+jobs:
+  hola-mundo_tres:
+
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hola mundo_tres
+      run: echo "Hello mundo Cruel...."
